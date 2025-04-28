@@ -1,0 +1,126 @@
+/* Estilos Básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos do Header e Navegação */
+header {
+    background: #27ae60;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home {
+    background: #2ecc71;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+
+/* Ações Section */
+#acoes {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#acoes ul {
+    list-style: none;
+}
+
+#acoes ul li {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Eventos Section */
+#eventos {
+    background: #ecf0f1;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.eventos-slider {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.eventos-item {
+    background: #fff;
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Section */
+#blog {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.blog-posts article {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Formulário de Contato */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
